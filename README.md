@@ -1,8 +1,21 @@
+### Quick Start
+```
+git clone --depth 1 https://github.com/milesfrain/purescript-react-basic-hooks-template.git myApp
+cd myApp
+npm install
+npx spago build
+npx parcel src/index.html --open
+```
+
+### Introduction
+
 This template for [purescript-react-basic-hooks](https://pursuit.purescript.org/packages/purescript-react-basic-hooks/0.4.0) is a direct purescript port of the introductory example of the [official React Hooks documentation](https://reactjs.org/docs/hooks-intro.html).
 
-More example are available in the [package repository](https://github.com/spicydonuts/purescript-react-basic-hooks).
+More examples are available in the [package repository](https://github.com/spicydonuts/purescript-react-basic-hooks).
 
 If you notice any problems with the below setup instructions, or have suggestions on how to make the new-user experience any smoother, please create an issue or pull-request.
+
+Compatible with PureScript compiler 13.6
 
 ### Initial Setup
 
